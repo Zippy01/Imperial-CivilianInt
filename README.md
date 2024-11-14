@@ -47,7 +47,10 @@ To install the **CivilianInt** script, follow these steps:
    ensure CivilianInt
    ```
 
-5. **Restart Your Server**  
+5. **Configure Additional Vehicles**  
+   Inside the `CivilianInt` folder, you'll find a `Library` folder containing a script named `vehicles.lua`. This file lists supported vehicle makes for registration. If you need to add additional vehicles not currently listed, open `vehicles.lua` and add them here to ensure the make displays correctly when registered in CAD. 
+
+6. **Restart Your Server**  
    Restart your server to apply the changes.
 
 ---
